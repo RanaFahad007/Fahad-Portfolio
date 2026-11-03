@@ -1,0 +1,13 @@
+/* TEAM */
+Developer: Rana M Fahad
+Role: Google Certified Data Analyst | MERN Stack Developer | Flutter App Developer
+Location: Lahore, Punjab, Pakistan
+Contact: ranafahad00789@gmail.com
+LinkedIn: https://linkedin.com/in/Ranafahad-23
+GitHub: https://github.com/Ranafahad007
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript ESNext
+Components: React 18, Three.js, React Three Fiber, Framer Motion, Tailwind CSS
+Fonts: Montserrat (Google Fonts)
+Software: Vite, Node.js

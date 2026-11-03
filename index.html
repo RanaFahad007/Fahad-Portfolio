@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Inline Early Theme Detection to prevent flash of wrong theme -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('theme');
+          var supportDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = (saved === 'dark' || saved === 'light') ? saved : (supportDark ? 'dark' : 'light');
+          var root = document.documentElement;
+          if (theme === 'dark') {
+            root.classList.add('dark');
+            root.classList.remove('light');
+          } else {
+            root.classList.add('light');
+            root.classList.remove('dark');
+          }
+          root.setAttribute('data-theme', theme);
+          root.style.colorScheme = theme;
+        } catch(e) {}
+      })();
+    </script>
+
+    <!-- Primary Meta Tags -->
+    <title>Rana M Fahad | Data Analyst, MERN Stack & Flutter Developer</title>
+    <meta name="title" content="Rana M Fahad | Data Analyst, MERN Stack & Flutter Developer" />
+    <meta name="description" content="Portfolio of Rana M Fahad - Google Certified Data Analyst, MERN Stack Developer, and Flutter App Developer specializing in Machine Learning, interactive data visualizations, and robust full-stack web and mobile applications." />
+    <meta name="keywords" content="Rana M Fahad, Data Analyst, MERN Stack Developer, Flutter Developer, Machine Learning, Python, React, Three.js, Lahore, Portfolio, Web Development" />
+    <meta name="author" content="Rana M Fahad" />
+    <meta name="theme-color" content="#0B0F17" />
+    <link rel="canonical" href="https://ranafahad.dev/" />
+    
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ranafahad.dev/" />
+    <meta property="og:title" content="Rana M Fahad | Data Analyst, MERN Stack & Flutter Developer" />
+    <meta property="og:description" content="Explore interactive 3D portfolio of Rana M Fahad featuring cutting-edge data analytics, AI models, MERN web apps, and mobile applications." />
+    <meta property="og:image" content="https://ranafahad.dev/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ranafahad.dev/" />
+    <meta property="twitter:title" content="Rana M Fahad | Data Analyst, MERN Stack & Flutter Developer" />
+    <meta property="twitter:description" content="Explore interactive 3D portfolio of Rana M Fahad featuring cutting-edge data analytics, AI models, MERN web apps, and mobile applications." />
+    <meta property="twitter:image" content="https://ranafahad.dev/images/og-image.jpg" />
+
+    <!-- Google Fonts: Montserrat Preload & Display Swap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&display=swap"
+      />
+    </noscript>
+
+    <!-- Schema.org Person & WebSite JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ranafahad.dev/#person",
+          "name": "Rana M Fahad",
+          "jobTitle": "Google Certified Data Analyst | MERN Stack Developer | Flutter App Developer",
+          "url": "https://ranafahad.dev/",
+          "email": "ranafahad00789@gmail.com",
+          "telephone": "+923466072649",
+          "image": "https://ranafahad.dev/images/fahad_portrait.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lahore",
+            "addressRegion": "Punjab",
+            "addressCountry": "PK"
+          },
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University of Gujrat"
+          },
+          "sameAs": [
+            "https://linkedin.com/in/Ranafahad-23",
+            "https://github.com/Ranafahad007"
+          ],
+          "knowsAbout": [
+            "Data Analytics",
+            "Machine Learning",
+            "Predictive Modeling",
+            "Statistical Analysis",
+            "Python",
+            "SQL",
+            "Pandas",
+            "NumPy",
+            "EDA",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "C++",
+            "Data Structures & Algorithms"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ranafahad.dev/#website",
+          "url": "https://ranafahad.dev/",
+          "name": "Rana M Fahad Portfolio",
+          "description": "Personal Portfolio and Interactive 3D Showcase of Rana M Fahad",
+          "publisher": {
+            "@id": "https://ranafahad.dev/#person"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-theme-bg text-theme-text font-montserrat antialiased selection:bg-theme-accent selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
